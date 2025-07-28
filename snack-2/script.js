@@ -1,10 +1,13 @@
-const people = [
-  { name: "Paolo", age: 35 },
-  { name: "Giulia", age: 24 },
-  { name: "Marco", age: 67 },
-];
+// Crea una arrow function che calcola il quadrato di un numero.
 
-// Stampa in console tutti i nomi
-// Risultato: 'Paolo', 'Giulia', 'Marco'
+const arrowSquare = (numero) => numero * numero;
 
-people.forEach((person) => console.log(person.name));
+console.log(arrowSquare(5));
+
+// Definisci una funzione chiamata quadrato che accetta un numero e restituisce il suo quadrato in una sola riga.
+
+function quadrato(numero) {
+  return numero * numero;
+}
+
+console.log(quadrato(8));
